@@ -7,6 +7,10 @@ module.exports = {
                 inter: ["Inter var", "sans-serif"],
                 satoshi: ["Satoshi var", "sans-serif"],
             },
+
+            colors: {
+                "basic-dark": "#111",
+            },
         },
 
         screens: {
