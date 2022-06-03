@@ -25,6 +25,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+[data-color-scheme="dark"] {
+    color-scheme: dark;
+}
+
+[data-color-scheme="light"] {
+    color-scheme: light;
+}
+
 #root {
     position: absolute;
     top: 0;
