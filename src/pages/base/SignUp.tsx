@@ -6,7 +6,7 @@ const SignUp = () => {
     const { authState, setAuthState } = useAuth();
     TabTitle("Sign Up - Markit");
     return (
-        <div className="md:px-8 px-5 md:py-24 py-12 h-fit max-w-5xl mx-auto">
+        <div className="md:px-8 px-5 md:py-24 py-12 min-h-screen max-w-5xl mx-auto">
             <div className="relative h-24 hidden fold-lg:block">
                 <AnimatedIcon
                     cOptions={"bottom-0 right-[29.25rem] hidden lg:inline"}
