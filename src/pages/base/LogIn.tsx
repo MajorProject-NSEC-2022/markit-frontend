@@ -1,8 +1,10 @@
 import AnimatedIcon from "../../components/AnimatedIcon";
 import { useAuth, AuthState } from "../../config/context/AuthContext";
+import { TabTitle } from "../../utils/TabTitle";
 
 const LogIn = () => {
     const { authState, setAuthState } = useAuth();
+    TabTitle("Log In - Markit");
     return (
         <div className="md:px-8 px-5 md:py-24 py-12 h-fit max-w-5xl mx-auto">
             <div className="relative h-24 hidden fold-lg:block">

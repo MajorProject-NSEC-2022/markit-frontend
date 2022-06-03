@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import ActiveButton from "../../components/ActiveButton";
 import AnimatedIcon from "../../components/AnimatedIcon";
+import { TabTitle } from "../../utils/TabTitle";
 
 const Home = () => {
+    TabTitle("Markit");
     return (
         <section className="w-full">
             <div className="md:px-8 px-5 py-24 h-fit max-w-4xl mx-auto relative">
