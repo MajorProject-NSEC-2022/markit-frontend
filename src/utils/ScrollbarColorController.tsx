@@ -1,5 +1,7 @@
-import { Theme } from "../config/context/ThemeContext";
+import { Theme } from "../providers/context/ThemeContext";
 
-export const ScrollbarThemeController = (theme: Theme) => {
+const ScrollbarThemeController = (theme: Theme) => {
     document.documentElement.setAttribute("data-color-scheme", theme === "dark" ? "dark" : "light");
 };
+
+export default ScrollbarThemeController;
